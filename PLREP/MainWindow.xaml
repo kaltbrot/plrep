@@ -1,0 +1,17 @@
+﻿<Window x:Class="PLREP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLREP"
+        mc:Ignorable="d"
+        Title="Repository" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="txtfld" HorizontalAlignment="Left" Height="23" Margin="61,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <ListBox Name="svcmd" HorizontalAlignment="Left" Height="419" Margin="365,0,0,0" VerticalAlignment="Top" Width="427"/>
+        <Button Content="Найти" Name="btn1" Click="Find" HorizontalAlignment="Left" Margin="87,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Добавить" Name="btn2" Click="Add" HorizontalAlignment="Left" Margin="216,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name="lbl1" Content="" HorizontalAlignment="Left" Margin="0,117,0,0" VerticalAlignment="Top" Height="302" Width="365"/>
+
+    </Grid>
+</Window>
