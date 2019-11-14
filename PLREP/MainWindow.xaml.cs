@@ -24,7 +24,6 @@ namespace PLREP
         {
             InitializeComponent();
         }
-
         
         
         public void Find(object sender, EventArgs e)
